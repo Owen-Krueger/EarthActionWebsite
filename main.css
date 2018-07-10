@@ -44,13 +44,27 @@ body {
 }
 
 /**
---------------
--- Headings --
---------------
+------------
+-- Blocks --
+------------
 **/
 
-.heading {
-	
+.block {
+	margin: 0 auto;
+	width: 80%;
+	background-color: white;
+	border: 2px solid #2636B2;
+}
+
+.block h1 {
+	margin: 0;
+	background-color: #2636B2;
+	color: white;
+	padding: 16px
+}
+
+.block p {
+	padding: 16px;
 }
 
 /**
@@ -70,4 +84,14 @@ body {
 	float: left;
 	padding: 7px 16px;
 	margin: auto;
+}
+
+/**
+------------
+-- Footer --
+------------
+**/
+
+footer {
+	
 }
