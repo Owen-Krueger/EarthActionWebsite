@@ -1,14 +1,28 @@
+/**
+----------
+-- Main --
+----------
+**/
+
 body {
 	background-color: #aaaaaa;
 	margin: 0 auto;
 	font-family: Arial;
+	min-width: 900px;
 }
+
+/**
+-------------
+-- Top Nav --
+-------------
+**/
 
 .topNav {
 	background-color: #e0e0e0;
 	overflow: hidden;
 	position: fixed;
 	width: 100%;
+	min-width: 900px;
 }
 
 .topNav a {
@@ -28,6 +42,22 @@ body {
 	color: white;
 	background-color: #5064FF;
 }
+
+/**
+--------------
+-- Headings --
+--------------
+**/
+
+.heading {
+	
+}
+
+/**
+------------
+-- Images --
+------------
+**/
 
 .logo {
 	width: 50%;
