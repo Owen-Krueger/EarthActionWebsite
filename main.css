@@ -1,0 +1,30 @@
+body {
+	background-color: #aaaaaa;
+	margin: 0 auto;
+}
+
+.topNav {
+	background-color: #e0e0e0;
+	height: 7%;
+}
+
+.topNav a {
+	display: inline-block;
+	color: #2636B2;	
+	margin: 1%;
+	text-decoration: none;
+	padding-left: 1%;
+	padding-right: 1%;
+	font-size: 1.5em;
+}
+
+.topNav a:hover {
+	color: #5064FF;
+}
+
+.logo {
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
