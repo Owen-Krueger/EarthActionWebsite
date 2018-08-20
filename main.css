@@ -11,6 +11,11 @@ body {
 	min-width: 900px;
 }
 
+.contents {
+	padding-top: 160px;
+	padding-bottom: 160px;
+}
+
 /**
 -------------
 -- Top Nav --
