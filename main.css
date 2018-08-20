@@ -57,7 +57,7 @@ body {
 .block {
 	margin: 0 auto;
 	margin-bottom: 50px;
-	width: 70%;
+	width: 1000px;
 	background-color: white;
 	border: 2px solid #2636B2;
 }
@@ -75,14 +75,21 @@ body {
 }
 
 .blockEmbed {
-	width: 60%;
+	width: 800px;
 	display: block;
 	border: none;
 	overflow: hidden;
-	height: 400px;
-	margin: 0 auto;
+	height: 100%;
+	margin-left: 100px;
+	margin-right: 100px;
 	padding: 16px;
 	padding-top: 0px;
+}
+
+.calendarEmbed {
+	border: 0;
+	width: 1000px;
+	height: 600px;
 }
 
 /**
