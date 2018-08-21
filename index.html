@@ -24,7 +24,7 @@
 		<h1>What is Earth Action?</h1>
 		<iframe class="blockEmbed" src="https://docs.google.com/document/d/e/2PACX-1vTRAQm0C1O_MNnZe9qWqV50Pz4VBq0mIpndzwTN8eM5HStIdc2s5Pu0fl9goCCgwf45V5KAkOfJ9EoV/pub?embedded=true"></iframe>
 	</div>-->
-	<form method="post" action="javascript:sendMail();">
+	<form method="post" action="mailto:earthaction@css.edu?Subject=I%20would%20like%20to%20join%20the%20email%20list!">
 		<input class="emailButton" type="submit" value="Join the emailing list" />
 	</form>
 	<!--<button class="emailButton">Join the emailing list</button>-->
@@ -35,25 +35,5 @@
 	<p>College of St. Scholastica</p>
 </footer>
 
-<script>
-	function sendMail(){
-	
-		var name = "Steve";
-		var email = "Email";
-		var message = name + " would like to join the earthaction email group";
-		var data ='name=' + name + '&email=' + email + '&message=' + message;
-	
-		$.ajax({
-			type: 'Post',
-			data: data,
-			url: 'send-mail.php',
-			success: function(){
-				alert("Success");
-			}
-		});
-		
-		return false;
-	}
-</script>
 </body>
 </html>
