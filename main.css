@@ -16,6 +16,21 @@ body {
 	padding-bottom: 160px;
 }
 
+.emailButton {
+	width: 30%;
+	height: 75px;
+	background-color: e0e0e0;
+	color: #2636B2;
+	font-size: 2em;
+	border: 1px solid #2636B2;
+	margin-left: 35%;
+	margin-right: 35%;
+}
+
+.emailButton:hover {
+	color: #5064FF;
+}
+
 /**
 -------------
 -- Top Nav --
@@ -80,8 +95,8 @@ body {
 	border: none;
 	overflow: hidden;
 	height: 100%;
-	margin-left: 100px;
-	margin-right: 100px;
+	margin-left: 84px;
+	margin-right: 84px;
 	padding: 16px;
 	padding-top: 0px;
 }
