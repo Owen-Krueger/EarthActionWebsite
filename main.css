@@ -63,6 +63,16 @@ body {
 	background-color: #5064FF;
 }
 
+.social {
+	float: right;
+	padding-right: 25px;
+}
+
+.social img {
+	padding: none;
+	height: 20px;
+}
+
 /**
 ------------
 -- Blocks --
