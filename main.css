@@ -48,7 +48,7 @@ body {
 	overflow: hidden;
 	position: fixed;
 	width: 100%;
-	min-width: 900px;
+	min-width: 100%;
 }
 
 .topNav a {
@@ -135,6 +135,10 @@ body {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.logoSection {
+	min-height: 700px;
 }
 
 .icon {
